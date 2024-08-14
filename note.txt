@@ -1,0 +1,37 @@
+Website Penyedia Produk (Kecantikan, Barang Keseharian, Kesehatan, dll)
+Menggunakan Laravel, TailwindCSS, dan MySQL website ini dilengkapi dengan fitur sebagai berikut: 
+
+* User Pengguna
+  => Halaman home yang menampilkan produk yang dijual. 
+      - Data diambil dari data manajemen produk yang aktif saja (Halaman Landing) 
+
+  => Registrasi customer. 
+      - form terdiri dari : nama, nomor telepon, email 
+
+  => Login Customer 
+      - Setelah login, customer Kembali ke halaman home dengan account yang sudah teregister. 
+
+  => Logout 
+      - Kembali ke halaman home 
+
+
+
+* User Admin
+  => Login admin
+      - Setelah login, admin bisa mengakses dashboard. 
+
+  => Halaman Dashboard Admin 
+      - Summary Card yg menampilkan (Jumlah Produk, Jumlah User, Jumlah Produk aktif, Jumlah User aktif).
+      - List 10 data produk terbaru
+
+  => Halaman list pengguna yang sudah registrasi. 
+      - Detail masing-masing pengguna.
+      - Approve registrasi pengguna.
+      - Hanya bisa diakses oleh admin.
+
+  => Halaman manajemen produk 
+      - CRUD data produk
+      - Data produk terdiri dari : nama, harga, gambar produk, status 
+
+  => Logout 
+      - Kembali ke halaman Login Admin 
